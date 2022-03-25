@@ -1,0 +1,44 @@
+body {
+    display: column;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hq {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: flex-end;
+    font-size: 40px;
+    font-weight: bold;
+    gap: 10px;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: primetime;
+    src: url(font/primetime/Primetime.ttf) format('truetype');
+}
+
+
+#bp {
+    font-family: 'primetime', sans-serif;
+    font-weight: 100;
+}
+
+.header_links{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+
+
