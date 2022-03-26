@@ -40,8 +40,7 @@ body {
 
 .main {
     display: flex;
-    align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 400px;
     margin: 10px;
 }
@@ -64,11 +63,12 @@ button {
     justify-content: center;
     font-size: xx-large;
     color: black;
+    text-decoration: underline 5px;
 }
 
 .profiles {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
     padding: 10px;
     font-family: 'snell roundhand', cursive;
@@ -86,3 +86,21 @@ button {
     background-color: black;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    padding: 20px;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.thing {
+    display: flex;
+    justify-content: center;
+}
+
+.quoter {
+    display: flex;
+    justify-content: flex-end;
+}
