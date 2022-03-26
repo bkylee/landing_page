@@ -104,3 +104,16 @@ button {
     display: flex;
     justify-content: flex-end;
 }
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    align-items: flex-start;
+}
+
+.cta, .action {
+    padding: 0px, 80px;
+    display: flex;
+    font-size: xx-large;    
+}
