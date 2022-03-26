@@ -62,7 +62,8 @@ button {
 .members {
     display: flex;
     justify-content: center;
-    font-size: x-large;
+    font-size: xx-large;
+    color: black;
 }
 
 .profiles {
@@ -70,7 +71,7 @@ button {
     justify-content: space-evenly;
     text-align: center;
     padding: 10px;
-    font-family: cursive;
+    font-family: 'snell roundhand', cursive;
 }
 
 .profiles img {
