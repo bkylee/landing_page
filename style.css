@@ -107,13 +107,19 @@ button {
 
 .signup {
     display: flex;
-    flex-direction: column;
     background-color: pink;
-    align-items: flex-start;
+}
+
+.signuptxt {
+    display: flex;
+    flex-direction: column;
 }
 
 .cta, .action {
     padding: 0px, 80px;
-    display: flex;
     font-size: xx-large;    
+}
+
+.signup button {
+    align-items: fle-end 
 }
