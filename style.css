@@ -43,10 +43,14 @@ body {
     display: flex;
     justify-content: space-between;
     height: 600px;
-    margin: 10px;
+    margin: 0px 60px;
 }
 button {
     display: flex;
+}
+
+.main img {
+    margin: 0;
 }
 
 .main_text {
@@ -126,6 +130,7 @@ button {
     justify-content: space-between;
     margin-left: 10px;
     color: black;
+    margin-left: 60px;
 }
 
 .main button {
@@ -150,9 +155,11 @@ button {
     border: 10px;
     padding: 5px 10px;
     border-style: double;
+    margin-right: 60px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    padding: 20px
 }
