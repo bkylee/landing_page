@@ -12,6 +12,7 @@ body {
     background-color: pink;
     align-items: center;
     justify-content: space-between;
+    color: black;
 }
 
 .hq {
@@ -41,7 +42,7 @@ body {
 .main {
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    height: 600px;
     margin: 10px;
 }
 button {
@@ -53,6 +54,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    font-size: 40px;
 }
 .members, .profiles {
     background-color: pink;
@@ -64,6 +66,7 @@ button {
     font-size: xx-large;
     color: black;
     text-decoration: underline 5px;
+    font-family: 'primetime', sans-serif;
 }
 
 .profiles {
@@ -75,7 +78,7 @@ button {
 }
 
 .profiles img {
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
     border: 10px double white;
 }
@@ -107,19 +110,49 @@ button {
 
 .signup {
     display: flex;
+    flex-direction: column;
     background-color: pink;
 }
 
 .signuptxt {
     display: flex;
-    flex-direction: column;
 }
 
 .cta, .action {
+    display: flex;
     padding: 0px, 80px;
     font-size: xx-large;    
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: black;
+}
+
+.main button {
+    display: flex;
+    margin-right: 10px;
+    font-family: 'primetime', sans-serif;
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    border: 10px;
+    padding: 5px 10px;
+    border-style: double;
 }
 
 .signup button {
-    align-items: fle-end 
+    display: flex;
+    margin-right: 10px;
+    font-family: 'primetime', sans-serif;
+    background-color: black;
+    color: pink;
+    font-size: 20px;
+    border: 10px;
+    padding: 5px 10px;
+    border-style: double;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
